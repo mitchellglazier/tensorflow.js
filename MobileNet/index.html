@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>MobileNet</title>
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <!-- mobileNet pretrained model -->
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+
+    <script src="main.js"></script>
+  </head>
+
+  <body onload="setup()">
+    <div style="text-align:center">
+      <h1>Whats That?</h1>
+      <video id="video">Video Not Working</video>
+      <pre id="predictions"></pre>
+      <canvas id="canvas" style="display:none"></canvas>
+    </div>
+  </body>
+</html>
